@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
     @yield('styles')
 </head>
 <body>
@@ -92,7 +92,7 @@
             }
         } 
     </script>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('public/js/app.js') }}"></script>
     @yield('scripts')
 </body>
 </html>
